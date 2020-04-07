@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Acme|Indie+Flower|Pacifico|Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    
+    
+    <title>Sign Up</title>
+    <style>
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .bg{
+          
+            z-index: -1;
+            width: 100%;
+            height: 1080px;
+            opacity: 0.6;
+            margin: 0px;
+            position: absolute;
+            
+           
+        }
+    
+        .header{
+            background-color: #555555;
+            float: left;
+            margin: 0px;
+            position: fixed;
+            width: 100%;
+            text-align: center;
+            z-index: 8;
+            
+            
+        }
+        .header div{
+            
+            padding: 15px 20px;
+            float: left;
+            width: 16.25%;
+            text-align: center;
+            
+            
+        }
+        
+        .header div:hover{
+            background-color: #44cc69;
+        }
+        .header a{
+            padding-top: 20px;
+            padding-bottom: 15px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 28px;
+            color: aliceblue;
+            
+        }
+        
+        
+        
+        
+        .container1 div{
+            width: 100%;
+            height: 500px;
+             margin-top: 50px;
+            box-shadow: 30px;
+        }
+        .image1 img{
+            margin-top: 50px;
+            position: relative;
+            width: 100%;
+            height: 700px;
+            z-index: -8;
+            opacity: 0.9;
+        }
+    
+        .text1 p{
+            font-size: 40px;
+            color: aliceblue;
+            position: absolute;
+            top:200px;
+            float: left;
+            margin-left: 100px;
+            padding: 20px 20px;
+            z-index: 1;
+            font-family: 'Shadows Into Light', cursive;
+            font-weight: 400;
+        }
+        
+        .buy-btn{
+            background-color: mediumseagreen;
+            padding: 10px 18px;;
+            font-size: 30px;
+            color: aliceblue;
+            margin-left: 250px;
+            position: absolute;
+            z-index: 1;
+            border-radius: 10px;
+            
+        }
+        .buy-btn:hover{
+            
+            background-color: #3399cc;
+        }
+        
+        .main{
+            color: seagreen;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Pacifico', cursive;
+            font-weight: 500;
+            
+            
+            
+        }
+        
+        .login-form{
+        
+            box-shadow: 20px;
+            z-index: 2;
+            margin: 2% 25%;
+            text-align: center;
+            -webkit-box-shadow: 0 0 40px #222;
+            box-shadow: 0 0 40px #222;
+            z-index: 99;
+        }
+        .login-form:hover ,.login-form:active{
+            background-color: #eee;
+        }
+        
+        .login-form form{ 
+            
+            font-size: 30px;
+            color: mediumaquamarine;
+            font-weight: 400;
+            
+            color: black;
+            font-size: 28px;
+            
+        }
+        #login h1
+        {
+            margin: 0px;
+            font-size: 48px;
+            color: black;
+            
+        
+            
+        
+            padding: 20px 20px;
+            z-index: 1;
+            font-family: 'Shadows Into Light', cursive;
+            font-weight: 400;
+        
+        }
+        
+        .login-form img{
+            height: 230px;
+            width: 210px;
+        }
+        .login-form p{
+            margin: 8px;
+        }
+        #login input{
+            padding: 10px 20px;
+            margin: 10px 20px;
+            font-size: 28px;
+            color: black;
+            border-radius: 20px;
+        }
+        #login button{
+            color: white;
+            background-color: mediumseagreen;
+            font-size: 28px;
+            padding: 10px 30px;
+            border-radius: 10px;
+            
+            margin: 15px;
+        }
+        #login button:hover{
+            background-color: #3399cc;
+        }
+        
+        
+        
+        
+        
+        
+        .steps{
+            
+            float: left;
+            
+            border: 5px;
+            width: 100%;
+            border-color: mediumseagreen;
+            box-shadow: 20px;
+            
+        }
+        .steps div{
+            font-size: 30px;
+            color: mediumseagreen;
+            border: 5px;
+            box-shadow: 20px;
+            float: left;
+            align-content: center;
+            border-radius: 20px;
+            margin: 20px;
+            margin-left: 150px;
+            width: 30%;
+            height: 200px;
+            border-style: solid;
+            padding: 40px 20px;
+            
+            
+        }
+        .steps1{
+            border-style: solid;
+        }
+        
+        
+       
+        
+        .register div{
+            background-color: mediumaquamarine;
+            margin:0px;
+            color: aliceblue;
+            font-family: 'Acme', sans-serif;
+            padding 30px 0px;
+            width: 100%;
+        }
+        .register-btn{
+            background-color: mediumseagreen;
+            padding: 10px 18px;;
+            font-size: 25px;
+            color: aliceblue;
+            border-radius: 10px;
+            margin-top: 20px;
+                        
+                        
+            
+            
+            
+        }
+        .register-btn:hover{
+            
+            background-color: #3399cc;
+        }
+        
+        
+        
+        
+        .footer{
+            
+            width: 100%;
+            background-color: #555555;
+            
+            font-size: 50px;
+            margin-top: 20px;
+            float: left;
+            margin: 0px;
+        margin-top: 50px;
+        }
+        .fquote{
+            color: aliceblue;
+            font-size: 30px;
+             font-family: 'Shadows Into Light', cursive;
+            font-weight: 500;
+            padding: 20px;
+            margin-left: 260px;
+            width: 80%;
+            align-content: center;
+            
+            
+        }
+        
+        
+        .contact{
+            text-align: center;
+            font-size: 25px;
+            color: aliceblue;
+            padding: 10px 20px;
+            font-family: 'Acme', sans-serif;
+            
+            
+            
+        }
+    
+    
+    </style>
+    
+    
+</head>
+<body>
+    <img class = "bg" src="pizza1.jpg">
+    
+    <div class="header">
+        
+        <div class=" header-item">
+        <a href="index.html"><i class="fa fa-home"></i> &nbsp;Home</a>
+        </div>
+        <div class=" header-item">
+        <a href="shop.html"><i class="fa fa-shopping-basket"></i> &nbsp;Shop Now</a>
+        </div>
+        <div class=" header-item">
+        <a href="gift.html"><i class="fa fa-gift"></i> &nbsp;Gift Card</a>
+        </div>
+        <div class=" header-item">
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i> &nbsp;My Cart</a>
+        </div>
+        <div class=" header-item">
+        <a href="user.html"><i class="fa fa-user"></i> &nbsp; My Profile</a>
+        </div>
+        
+    </div>
+    <br><br><br><br>
+    
+   <div class="login-form">
+       <form id="login" action="otp.html" method="post">
+       <h1>PizzaMania</h1>
+           <img src="loginuser.png">
+           <div class="fields">
+               <br>
+                Full Name :   <input type="text" maxlength="50" name="name" placeholder="Full Name" required ><br>
+                Mobile No :   <input type="tel" name="phone" placeholder="Mobile No" required><br>
+                Address  &nbsp; &nbsp;&nbsp;:   <input type="text" maxlength="100" name="address" placeholder="Full Address" required><br>
+                Email &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   :   <input type="email" maxlength="30" name="email" placeholder="Email id" required><br>
+                Password  &nbsp;:   <input type="password" maxlength="30" name="password" placeholder="Password" required><br>
+               <input type="hidden" maxlength="1" name="resend" value="1" >
+                      <input type="hidden" maxlength="1" name="try" value="1" >
+           </div>
+           <button type="submit">Register</button>
+       </form>
+       
+       
+    </div>
+    <br>
+     
+    
+    <div class="footer">
+      <div class="fcontent">
+          <div class="fquote">
+          "One cannot think well, love well, sleep well, if one has not dined well."<br></div>
+        </div>
+        <div class="contact">Having Any Query? Contact Us <br>  <i class="fa fa-phone"></i>&nbsp; : 9958138249 <br>or<br> <i class="fa fa-envelope"></i>&nbsp; : customercare101@gmail.com</div>
+    
+    </div>
+    
+    
+
+</body>
+</html>
